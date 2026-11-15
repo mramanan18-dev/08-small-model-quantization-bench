@@ -1,0 +1,15 @@
+# Versions used in our runs (Nov 2026). torch comes preinstalled on Colab / Kaggle.
+# vLLM is installed by edgelayer_bench.py into its own venv, so it never clashes with these.
+llmcompressor==0.15.0
+compressed-tensors==0.20.1
+bitsandbytes==0.50.2
+lm-eval==0.4.13
+transformers>=5.20
+datasets>=5.2
+accelerate>=1.15
+huggingface_hub
+numpy
+# make_assets.py
+pandas
+matplotlib
+tabulate
